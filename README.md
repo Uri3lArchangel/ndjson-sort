@@ -38,4 +38,4 @@ bash scripts/bench.sh 300000
 
 The benchmark measures only the sorter process, not the generator or Python reference. The verifier compares every output record byte-for-byte to a stable in-memory reference and checks spill cleanup. See [BENCHMARK.md](BENCHMARK.md) for a measured run and its limits.
 
-This portfolio prototype was implemented with AI assistance. It is not a production deployment or a claim of independent implementation.
+Portfolio prototype. The test and benchmark results describe local behavior, not a production deployment.
